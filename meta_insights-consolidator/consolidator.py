@@ -22,4 +22,4 @@ for file in csv_files:
     else:
         merged_df = pd.merge(merged_df, df, on='Date', how='outer')
 
-merged_df.to_csv('merged_df1.csv', index=False)
+merged_df.to_csv('merged_df.csv', index=False)
